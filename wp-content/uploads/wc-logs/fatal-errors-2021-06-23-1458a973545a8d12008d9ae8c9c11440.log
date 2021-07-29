@@ -1,0 +1,34 @@
+2021-06-23T05:18:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 3006
+
+2021-06-23T05:18:41+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 143360 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/formatting.php on line 5535
+
+2021-06-23T05:19:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:19:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 1417
+
+2021-06-23T05:30:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:30:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:30:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:30:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:31:05+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:31:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:31:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:07+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:13+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:32+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:39+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
+2021-06-23T05:32:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/fdhtf9kopo7z/public_html/wp-includes/wp-db.php on line 2022
+
