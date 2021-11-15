@@ -1081,3 +1081,5 @@ function googleanalytics_code() {
 	<?php
 }
 add_action( 'wp_head', 'googleanalytics_code' );
+
+include 'counter-cron.php';

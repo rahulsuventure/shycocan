@@ -78,7 +78,9 @@ if ( 'fullscreen' === oceanwp_mobile_menu_style() ) {
 
 <?php wp_footer(); ?>
 <!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8776462.js"></script>
+<!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8776462.js"></script> -->
 <!-- End of HubSpot Embed Code -->
+
+<script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "c9b334c611f8215538aafa316499841daee2d4a3877db18c1a76fac4cf3cd352543b5bb12e3589a2b73c2b29aa5e5d5b", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
 </body>
 </html>
