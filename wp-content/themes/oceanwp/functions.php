@@ -1083,3 +1083,67 @@ function googleanalytics_code() {
 add_action( 'wp_head', 'googleanalytics_code' );
 
 include 'counter-cron.php';
+
+
+
+include 'admin-distributer.php';
+include 'admin-partner.php';
+include 'partner-distributer.php';
+
+
+//add_action('shutdown','shutdown1212');
+function shutdown1212(){
+	/* global $wpdb;
+	$mytables=$wpdb->get_results("SHOW TABLES");
+	foreach ($mytables as $mytable)
+	{
+		foreach ($mytable as $t) 
+		{       
+			echo $t . "<br>";
+		}
+	}
+	return;  */
+	require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+
+	global $wpdb;
+	$table_name = $wpdb->prefix . 'distributors';
+	//$wpdb->query( "DROP TABLE IF EXISTS $table_name" ); 
+	$sql	= "CREATE TABLE $table_name (
+		id mediumint(9) NOT NULL AUTO_INCREMENT,
+		logo varchar(1000) NOT NULL,
+		dname varchar(1000) NOT NULL,
+		address varchar(1000) NOT NULL,
+		city varchar(1000) NOT NULL,
+		pincode varchar(1000) NOT NULL,
+		state varchar(1000) NOT NULL,
+		country varchar(1000) NOT NULL,
+		email varchar(1000) NOT NULL,
+		phone varchar(1000) NOT NULL,
+		description text NULL,
+		region varchar(1000) NOT NULL,
+	PRIMARY KEY  (id)
+	) $charset_collate;";
+	dbDelta($sql); 
+	
+	$table_name = $wpdb->prefix . 'partners';
+	//$wpdb->query( "DROP TABLE IF EXISTS $table_name" ); 
+	$sql	= "CREATE TABLE $table_name (
+		id mediumint(9) NOT NULL AUTO_INCREMENT,
+		logo varchar(1000) NOT NULL,
+		pname varchar(1000) NOT NULL,
+		address varchar(1000) NULL,
+		city varchar(1000) NOT NULL,
+		pincode varchar(1000) NULL,
+		state varchar(1000) NOT NULL,
+		country varchar(1000) NOT NULL,
+		email varchar(1000) NULL,
+		phone varchar(1000) NULL,
+		description text NOT NULL,
+		region varchar(1000) NOT NULL,
+		type varchar(1000) NOT NULL,
+		link varchar(1000) NULL,
+	PRIMARY KEY  (id)
+	) $charset_collate;";
+	dbDelta($sql);   
+	
+}
